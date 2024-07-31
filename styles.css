@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #f0a500;
+    font-size: 2.5rem;
+}
+
+section p, section ul {
+    max-width: 800px;
+    margin: 1rem auto;
+    color: #555;
+}
+
+.intro {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+    text-align:Let's complete the CSS code and continue building the website:
+
+```css
+.intro {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 0;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.intro p {
+    margin: 0;
+    color: #777;
+    font-size: 1.5rem;
+}
+
+.experience-item, .project-item, .education-item {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.skills-list, .certifications-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skills-list li, .certifications-list li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.skills-list li:hover, .certifications-list li:hover {
+    background-color: #f0a500;
+    color: white;
+}
+
+section a {
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+section a:hover {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
